@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback — Kinty</title>
+  <meta name="description" content="Share feedback, report a bug, or suggest a feature for Kinty." />
+  <meta property="og:title" content="Feedback — Kinty" />
+  <meta property="og:description" content="Share feedback, report a bug, or suggest a feature for Kinty." />
+  <meta property="og:image" content="https://kinty-webpage.onrender.com/assets/icons/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://kinty-webpage.onrender.com/feedback.html" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://kinty-webpage.onrender.com/assets/icons/og-image.png" />
+  <link rel="canonical" href="https://kinty-webpage.onrender.com/feedback.html" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png" />
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img src="assets/icons/app-icon-512.jpg" alt="Kinty logo" />
+        Kinty
+      </a>
+      <nav class="nav-links">
+        <a href="index.html#features">Features</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="https://apps.apple.com/us/app/kinty-contact-reminders/id6756719135"
+          class="btn btn-primary btn-small">Get the app</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <nav class="nav-mobile">
+      <a href="index.html#features">Features</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="feedback.html">Feedback</a>
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main class="feedback-page">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Feedback</span>
+        <h1>We'd love to hear from you</h1>
+        <p class="text-dim" style="margin-top: 14px; font-size: 1.05rem;">
+          Found a bug, have an idea, or just want to say hi? Send it over — every message goes straight to the team.
+        </p>
+      </div>
+
+      <form class="feedback-form" id="feedback-form" action="https://formspree.io/f/mvzjwqkr" method="POST">
+        <div class="form-field">
+          <label for="name">Name <span class="optional">(optional)</span></label>
+          <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" />
+        </div>
+        <div class="form-field">
+          <label for="email">Email <span class="optional">(optional, so we can reply)</span></label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" />
+        </div>
+        <div class="form-field">
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic">
+            <option value="General feedback">General feedback</option>
+            <option value="Bug report">Bug report</option>
+            <option value="Feature request">Feature request</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us what's on your mind..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send feedback</button>
+        <p class="form-note">
+          Prefer email? Reach us directly at
+          <a class="inline-link" style="color: var(--accent); text-decoration: underline;"
+            href="mailto:vasilis.merkouropoulos+kinty@gmail.com">vasilis.merkouropoulos+kinty@gmail.com</a>.
+        </p>
+        <div class="form-status" id="form-status"></div>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>© 2026 Kinty. All rights reserved.</span>
+        <span>Made by Vasileios Merkouropoulos</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
