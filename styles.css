@@ -809,6 +809,12 @@ p {
     margin-right: auto;
   }
 
+  .feature-copy ul {
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .feature-copy li {
     text-align: left;
   }
