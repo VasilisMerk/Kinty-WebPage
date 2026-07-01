@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kinty — Contact Reminders that feel natural</title>
+  <meta name="description"
+    content="Kinty helps you stay in touch with the people who matter, with spontaneous reminders instead of rigid schedules. Add contacts, pick a frequency, and let Kinty do the rest." />
+  <meta property="og:title" content="Kinty — Contact Reminders" />
+  <meta property="og:description"
+    content="Never lose touch with the people who matter. Pick a frequency. Kinty does the rest." />
+  <meta property="og:image" content="assets/icons/app-icon-512.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/icons/app-icon-512.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img src="assets/icons/app-icon-512.jpg" alt="Kinty logo" />
+        Kinty
+      </a>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="https://apps.apple.com/us/app/kinty-contact-reminders/id6756719135"
+          class="btn btn-primary btn-small">Get the app</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <nav class="nav-mobile">
+      <a href="index.html#features">Features</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-copy">
+          <span class="eyebrow">Contact Reminders, reimagined</span>
+          <h1>Stay in touch, <span class="accent">naturally.</span></h1>
+          <p class="lede">
+            Life gets busy. You think about reaching out… but forget. Days turn into weeks,
+            weeks into months. Kinty replaces rigid schedules with flexible reminder windows
+            that feel natural, not stressful.
+          </p>
+          <div class="hero-actions">
+            <a href="https://apps.apple.com/us/app/kinty-contact-reminders/id6756719135" class="store-badge">
+              <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                alt="Download on the App Store" />
+            </a>
+            <a href="#features" class="btn btn-ghost">See how it works</a>
+          </div>
+          <div class="hero-meta">
+            <span>Free to start</span>
+            <span>Works offline</span>
+            <span>iOS</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="phone-frame">
+            <img src="assets/screenshots/01-reminders.png"
+              alt="Kinty reminders screen showing upcoming, today's, and overdue contacts"
+              onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'Add assets/screenshots/01-reminders.png'}))" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem / promise -->
+    <section class="problem">
+      <div class="container">
+        <div class="problem-card">
+          <p class="quote">
+            <strong class="centered">Never lose touch with the people who matter.</strong>
+            Pick a frequency. Kinty does the rest.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Features</span>
+          <h2>Everything you need to keep your relationships alive</h2>
+        </div>
+
+        <div class="feature-row">
+          <div class="feature-copy">
+            <div class="icon-badge">✦</div>
+            <h3>Spontaneous, not scheduled</h3>
+            <p>
+              Instead of a fixed date, Kinty nudges you within a natural time window —
+              like "once every 2–3 weeks" — so reaching out never feels like a chore.
+            </p>
+            <ul>
+              <li>Randomized nudges within your chosen frequency</li>
+              <li>See what's overdue, due today, or coming up</li>
+              <li>Complete or renew a reminder in one tap</li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="phone-frame">
+              <img src="assets/screenshots/todaysView.png" alt="Today's reminders screen"
+                onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'Add assets/screenshots/todaysView.png'}))" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-row reverse">
+          <div class="feature-copy">
+            <div class="icon-badge">⇩</div>
+            <h3>Import your contacts in seconds</h3>
+            <p>
+              Pick a frequency, then choose contacts straight from your address book.
+              Bulk-import as many people as you want, each with the cadence that fits them.
+            </p>
+            <ul>
+              <li>Five built-in frequency presets, from very frequent to rare</li>
+              <li>Or set a fully custom interval</li>
+              <li>Bulk import instead of adding contacts one by one</li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="phone-frame">
+              <img src="assets/screenshots/02-import.png" alt="Import contacts screen"
+                onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'Add assets/screenshots/02-import.png'}))" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-row">
+          <div class="feature-copy">
+            <div class="icon-badge">🎂</div>
+            <h3>Stay close to every celebration</h3>
+            <p>
+              Birthdays are tracked automatically once a contact's date is set,
+              with a dedicated view for who's celebrating this week and who's coming up next.
+            </p>
+            <ul>
+              <li>This-week and upcoming birthday views</li>
+              <li>Countdown to each birthday</li>
+              <li>Notifications so you never miss the day</li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="phone-frame">
+              <img src="assets/screenshots/03-birthdays.png" alt="Birthdays screen"
+                onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'Add assets/screenshots/03-birthdays.png'}))" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-row reverse">
+          <div class="feature-copy">
+            <div class="icon-badge">💬</div>
+            <h3>Pick up right where you left off</h3>
+            <p>
+              Jot down what you last talked about — a new job, an upcoming trip — so your
+              next conversation starts warm instead of with "so, what's new?"
+            </p>
+            <ul>
+              <li>Searchable notes per contact</li>
+              <li>Recent topics surfaced automatically</li>
+              <li>Quick-add right after a reminder is completed</li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="phone-frame">
+              <img src="assets/screenshots/04-topics.png" alt="Topics screen"
+                onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'Add assets/screenshots/04-topics.png'}))" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-row">
+          <div class="feature-copy">
+            <div class="icon-badge">☺</div>
+            <h3>Manage every connection</h3>
+            <p>
+              A single place to see all your contacts and their reminder frequency,
+              editable anytime as relationships change.
+            </p>
+            <ul>
+              <li>Edit frequency per contact whenever you like</li>
+              <li>Search across all contacts</li>
+              <li>Multiple app themes to match your style</li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="phone-frame">
+              <img src="assets/screenshots/05-contacts.png" alt="Contacts screen with frequency labels"
+                onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'placeholder',textContent:'Add assets/screenshots/05-contacts.png'}))" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="steps">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">How it works</span>
+          <h2>Three steps to never losing touch</h2>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">STEP 01</div>
+            <h3>Add your people</h3>
+            <p>Import contacts from your address book or add them one at a time.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">STEP 02</div>
+            <h3>Pick a frequency</h3>
+            <p>Choose how often you want to reach out — from very frequently to rarely, or set a custom window.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-number">STEP 03</div>
+            <h3>Get nudged, naturally</h3>
+            <p>Kinty reminds you within that window, at a time you choose, so it never feels forced.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Pricing</span>
+          <h2>Free to use. Upgrade if you want more.</h2>
+        </div>
+        <div class="pricing-grid">
+          <div class="price-card">
+            <div class="price-name">Free</div>
+            <div class="price-value">$0</div>
+            <div class="price-desc">Core reminders, birthdays, and contact management.</div>
+          </div>
+          <div class="price-card featured">
+            <span class="tag">Popular</span>
+            <div class="price-name">Monthly</div>
+            <div class="price-value">$0.49<span>/mo</span></div>
+            <div class="price-desc">Unlock the full experience, billed monthly.</div>
+          </div>
+          <div class="price-card">
+            <div class="price-name">Annual</div>
+            <div class="price-value">$3.99<span>/yr</span></div>
+            <div class="price-desc">Best value for staying in touch all year.</div>
+          </div>
+          <div class="price-card">
+            <div class="price-name">Lifetime</div>
+            <div class="price-value">$2.99</div>
+            <div class="price-desc">Pay once, keep full access forever.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">FAQ</span>
+          <h2>Questions, answered</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              Why random reminders?
+              <span class="plus">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Random reminder windows feel more natural and reduce the pressure of fixed schedules.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Can I create my own reminder ranges?
+              <span class="plus">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. You can use presets or fully customize reminder intervals.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              What happens after I complete a reminder?
+              <span class="plus">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>You can either complete the reminder, or renew it to schedule the next reminder automatically within
+                your selected frequency range.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Can I change reminder times?
+              <span class="plus">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely. You choose when notifications appear.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Does the app work offline?
+              <span class="plus">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes — core features work fully offline, including viewing reminders, managing contacts, and completing
+                or continuing reminder cycles.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+      <div class="container">
+        <div class="cta-card">
+          <h2>Never lose touch with the people who matter.</h2>
+          <p>Pick a frequency. Kinty does the rest.</p>
+          <div class="hero-actions">
+            <a href="https://apps.apple.com/us/app/kinty-contact-reminders/id6756719135" class="store-badge">
+              <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                alt="Download on the App Store" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <img src="assets/icons/app-icon-512.jpg" alt="Kinty logo" />
+            Kinty
+          </a>
+          <p>Contact reminders that feel natural, not stressful.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Product</h4>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#faq">FAQ</a>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+          </div>
+          <div class="footer-col">
+            <h4>Support</h4>
+            <a href="mailto:vasilis.merkouropoulos+kinty@gmail.com">Contact us</a>
+            <a href="https://apps.apple.com/us/app/kinty-contact-reminders/id6756719135">App Store</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Kinty. All rights reserved.</span>
+        <span>Made by Vasileios Merkouropoulos</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
