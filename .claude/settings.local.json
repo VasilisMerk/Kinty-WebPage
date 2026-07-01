@@ -21,7 +21,12 @@
       "Bash(sed -i '' 's|ICON_PATH|icon.png|' og-template.html)",
       "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --hide-scrollbars --window-size=1200,630 --screenshot=/private/tmp/claude-501/-Users-vasilis-merkouropoulos-Development-Kinty-WebPage/be4ca03c-a59f-43df-8d50-038ce32aa052/scratchpad/og-image-raw.png file:///private/tmp/claude-501/-Users-vasilis-merkouropoulos-Development-Kinty-WebPage/be4ca03c-a59f-43df-8d50-038ce32aa052/scratchpad/og-template.html)",
       "Bash(sips -z 48 48 assets/icons/app-icon-512.png --out assets/icons/favicon-48x48.png)",
-      "Bash(sips -z 48 48 assets/icons/apple-touch-icon.png --out assets/icons/favicon-48x48.png)"
+      "Bash(sips -z 48 48 assets/icons/apple-touch-icon.png --out assets/icons/favicon-48x48.png)",
+      "Bash(command -v brew)",
+      "Bash(brew --version)",
+      "Bash(brew install *)",
+      "Bash(mkdir -p /private/tmp/claude-501/-Users-vasilis-merkouropoulos-Development-Kinty-WebPage/be4ca03c-a59f-43df-8d50-038ce32aa052/scratchpad/originals)",
+      "Bash(cp assets/screenshots/*.png /private/tmp/claude-501/-Users-vasilis-merkouropoulos-Development-Kinty-WebPage/be4ca03c-a59f-43df-8d50-038ce32aa052/scratchpad/originals/)"
     ]
   }
 }
