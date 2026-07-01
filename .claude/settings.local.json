@@ -6,7 +6,14 @@
       "Bash(curl -s \"https://itunes.apple.com/lookup?id=6756719135\")",
       "Bash(python3 -m json.tool)",
       "Bash(find /private/tmp/claude-501 -maxdepth 6 -iname \"*.png\" -o -iname \"*.jpg\" -newer /Users/vasilis.merkouropoulos/Development/Kinty-WebPage 2>/dev/null | head -50)",
-      "Bash(curl -sL \"https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/bb/1a/74bb1a13-fcee-bfd4-7548-aed5038f841a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg\" -o \"/Users/vasilis.merkouropoulos/Development/Kinty-WebPage/assets/icons/app-icon-512.jpg\")"
+      "Bash(curl -sL \"https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/bb/1a/74bb1a13-fcee-bfd4-7548-aed5038f841a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg\" -o \"/Users/vasilis.merkouropoulos/Development/Kinty-WebPage/assets/icons/app-icon-512.jpg\")",
+      "Bash(sips --help)",
+      "Bash(sips -s format png assets/icons/app-icon-512.jpg --out assets/icons/app-icon-512.png)",
+      "Bash(sips -z 32 32 assets/icons/app-icon-512.png --out assets/icons/favicon-32x32.png)",
+      "Bash(sips -z 16 16 assets/icons/app-icon-512.png --out assets/icons/favicon-16x16.png)",
+      "Bash(sips -z 180 180 assets/icons/app-icon-512.png --out assets/icons/apple-touch-icon.png)",
+      "Bash(sips -z 192 192 assets/icons/app-icon-512.png --out assets/icons/icon-192.png)",
+      "Bash(python3 -c \"import PIL; print\\(PIL.__version__\\)\")"
     ]
   }
 }
